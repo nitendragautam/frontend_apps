@@ -2,7 +2,7 @@
   "name": "react_stock_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nitendragautam.github.io/react_stock_app",
+  "homepage": "https://nitendragautam.github.io/react_apps",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
