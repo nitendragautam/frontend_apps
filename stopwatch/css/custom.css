@@ -1,0 +1,28 @@
+ body {
+        background-color: #BDBDBD;
+    }
+    
+    .container {
+            padding-top: 100px;
+            text-align: center;
+        }
+        
+    .title, .customButton {
+        font-family: 'Berkshire Swash', cursive;
+    }
+    
+    #timerLabel {
+    margin-top: 10px;
+        color: black;
+        
+        }
+    .customButton {
+        width: 180px;
+        height: 50px;
+        margin-top: 100px;
+        border-radius: 6px;
+        border: none;
+        background-color: white;
+        font-size: 16px
+        
+    }
