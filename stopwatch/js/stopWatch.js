@@ -30,7 +30,6 @@ function timer(){
         setTimeout(function(){
           time++; //Increment Timer
             var minute = Math.floor(time/100/60);
-            console.log(minute);
             var second = Math.floor(time/100);
             var miliSecond = time % 100;
             // For minute from (0 to 9)
