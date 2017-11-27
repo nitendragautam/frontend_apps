@@ -20,7 +20,7 @@ function resetTimer(){
     timerStatus = 0;
     time = 0;
     document.getElementById("startButton").disabled = false;
-    document.getElementById("timerLabel").innerHtml = "00:00:00";
+    document.getElementById("timerLabel").innerHTML = "00:00:00";
 }
 
 
