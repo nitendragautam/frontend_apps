@@ -1,0 +1,146 @@
+body {
+    background: url('/responsive-nav-menu-bar/images/nagarkot_mountain.JPG') no-repeat;
+    background-size: cover;
+}
+
+
+/* Strip the ul of Padding and list Styling*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    
+}
+
+/* Properties for the List li */
+
+li {
+    display: inline-block;
+    float:left;
+    margin-right: 1px;    
+}
+
+/* Properties for element a inside a*/
+
+/* Style for Menu Links */
+li a{
+    display: block;
+    min-width: 140 px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica ,Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+
+}
+
+
+/* Hover state for Top Level Links */
+
+li:hover a {
+    background: #19c589;
+    
+}
+
+/* Style for Drop Down Links */
+
+li:hover ul li a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+}
+
+/* Hover State for Drop down links */
+
+li:hover ul li a:hover {
+    background: #19c589;
+    color: #fff;
+    
+}
+
+/* Hide Drop Down links until they are needed */
+li ul {
+    display: none;
+}
+
+
+/* Make Dropdown links vertical*/
+
+li ul li {
+    display: block;
+    float: none;
+}
+
+/* Prevent text wrapping on dropdown links */
+
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/* Display the dropdown on Hover */
+
+ul li a:hover + .hidden ,.hidden:hover {
+    display: block;
+}
+
+/* Hide the CheckBox*/
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* Show Menu when invisible checkbox is checked */
+
+input[type=checkbox]:checked ~ #menu {
+    display: block; 
+}
+
+/* Style for Menu Label */
+
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #a67c00;
+    background: center;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    
+}
+
+
+/* Response Styles */
+
+@media screen and (max-width: 760px){
+    /* Make Dropdown links appear Links  */
+    ul {
+        position: static;
+        display: none;
+    }
+    
+    /* Create Vertical SPacing */
+    
+    li {
+        margin-bottom: 1px;
+    }
+    
+    /* Make all menu links full width */
+    ul li, li a {
+        width: 100%;
+    }
+    
+    .show-menu {
+        display: block;
+    }
+    body {
+        background-image: none;
+    }
+    
+    
+}
