@@ -29,6 +29,8 @@ h3 {
 .para {
     font-size: 25px;
     color:blue;
+    font-family: Arial,Helvetica,Times;
+    font-weight: bold;
 }
 
 /* Margin for body */
@@ -45,10 +47,14 @@ body {
 
 html {
     background-color: #27FFF8;
+    font-family: 'Open Sans',sans-serif ;/* Add Multiple Fonts as Back Up */
+    font-size: 12px;
+        
 }
 
 /* Display Property*/
 img {
     display:block;
     margin:0 auto; /* First Values goes to top and button ,second values goes to left and right*/
+    
 }
