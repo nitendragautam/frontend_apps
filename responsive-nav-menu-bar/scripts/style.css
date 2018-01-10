@@ -1,5 +1,5 @@
 body {
-    background: url(img/nagarkot_mountain.JPG) no-repeat;
+    background: url("../img/nagarkot_mountain.JPG") no-repeat;
     background-size: cover;
 }
 
