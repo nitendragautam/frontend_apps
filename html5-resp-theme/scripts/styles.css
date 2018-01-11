@@ -1,0 +1,129 @@
+/* 
+Date: 2018-01-10
+Author: Nitendra Gautam
+*/
+
+
+body {
+ background-image: url("../img/cement_concrete.png");
+    color: #000305;
+    font-size: 87.5%; /* Base font Size is 14 px*/
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+/* Style the Links which has anchor <a> element*/
+
+a {
+    text-decoration: none; /* Removes the Underline from the Link*/
+}
+
+
+/* Style anchor Links and Visited Links */
+
+a:link ,a:visited {
+    
+}
+
+
+/* Style Hover Links and active Links  */
+a:hover ,a:active {
+    
+}
+
+
+
+
+/* Style for Main Body Class*/
+.mainBody {
+    margin: 0 auto;
+    width: 70%; /* Will decrease the width of the body and pushes the main content into Middle */
+}
+
+/* Style for the Header Image */
+
+.mainHeader img {
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+ 
+}
+
+
+/* Main Header Navigation */
+
+.mainHeader nav {
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Main Header Navigation UnOrdered List Items */
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto; /* we don't need an extra margin as it already exists for */
+
+}
+
+
+/* Main Header with the Navigation List ,Unordered List Items */
+
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+
+
+
+/* Styling the navigation Link , and vistited Link */
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+
+/* Change Links Colour When Hovering ,Link is Active ,Link is Visited*/
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+    background-color:#CF5C3F;
+    text-shadow: none;
+}
+
+/* Main Header Navigation */
+
+.mainHeader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Main Content Styling */
+
+.mainContent {
+    
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 70%;
+    float: left; /* This is done  so that side bar can push the container to left hand side */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+
+/* Style the Top Content in the Page */
+
