@@ -24,13 +24,15 @@ a {
 /* Style anchor Links and Visited Links */
 
 a:link ,a:visited {
+    color: #CF53CF;
     
 }
 
 
 /* Style Hover Links and active Links  */
 a:hover ,a:active {
-    
+    background-color: #CF53CF;
+    color: #Fff;
 }
 
 
@@ -127,3 +129,185 @@ a:hover ,a:active {
 
 /* Style the Top Content in the Page */
 
+.topcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%; /* Margin top and Margin Side from Left to Right */
+    margin-top: 2%;
+}
+
+
+/* Style the bottom Content */
+
+.bottomcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+
+
+/* Styles for Side Bar */
+
+.top-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
+
+.middle-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0 0 2% 3%;
+    padding: 2% 3%;
+}
+
+.bottom-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0 0 2% 3%;
+    padding: 2% 3%;
+}
+
+
+.mainFooter {
+    width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+}
+
+
+/* Style for the text of the Footer */
+
+.mainFooter p {
+    width: 92%;
+    margin: 10px auto;
+    color: #FFF;
+}
+
+/* Style for Posts */
+
+.post-info {
+    font-style: italic;
+    color: #999;
+    font-size: 85%;
+}
+
+
+/* Media Queries to Make Page Responsive  in Media Devices */
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    .body {
+        margin: 0 auto;
+        font-size: 95%;
+    }
+    
+    .mainHeader img {
+    width: 100%;       
+}
+    
+    /* Main Header Navigation */
+
+.mainHeader nav {
+    height: 160px;
+}
+
+/* Main Header Navigation UnOrdered List Items */
+.mainHeader nav ul {
+    padding-left: 0;
+
+}
+
+
+/* Main Header with the Navigation List ,Unordered List Items */
+
+.mainHeader nav ul li {
+   width: 100%;
+    text-align: center;
+}
+
+
+
+/* Styling the navigation Link , and vistited Link */
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+}
+
+
+   /* Main Content Styling */
+
+.mainContent {
+    
+    line-height: 28px;
+}
+
+.content {
+    width: 100%;
+    float: left; /* This is done  so that side bar can push the container to left hand side */
+    margin-top:2%;
+}
+
+
+
+/* Style the Top Content in the Page */
+
+.topcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+
+/* Style the bottom Content */
+
+.bottomcontent {
+    
+    margin-top: 3%;
+}
+
+/* Hiding the Post Content on Mobile Devices  */
+    .post-info {
+        display:none;
+    }
+    
+    
+    /* Styles for Side Bar */
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar {
+    width: 94%;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
+
+}
