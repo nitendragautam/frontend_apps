@@ -1,0 +1,16 @@
+/* 
+Set the Map explicitly to define the size of the div element that contains the map id
+*/
+
+
+#map {
+    height: 100%;
+}
+
+/* Below fills the whole window with Map */
+
+html ,body {
+    height:100%;
+    margin: 0;
+    padding :0;
+}
