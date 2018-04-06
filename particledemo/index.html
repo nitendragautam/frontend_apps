@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Particle Demo</title>
+    <link rel="stylesheet" href="scripts/style.css">
+    
+    
+    
+    
+    </head>
+
+<body>
+    
+    <!-- Load the Div -->
+    <div id="particles-js"></div>
+    <script src="vendor/particles.min.js"></script>
+    
+    
+    <!-- Use the JavaScript Library to Load the elements -->
+    <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback(optional))*/
+        particlesJS.load('particles-js','particles.json', function(){
+            console.log('callback -particles-js config Loaded');
+        })
+    </script>
+    
+    </body>
+
+
+
+
+
+</html>
