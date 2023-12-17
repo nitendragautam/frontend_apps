@@ -1,8 +1,8 @@
-This Repository contains several Java Script bases front end applications.
+This Repository contains several sample front-end applications that I have created da part of my learning.
 
 
-https://nitendragautam.github.io/js_apps/
+https://nitendragautam.github.io/frontend_apps/
 
 
-You can find my blogs at [nitendratech.com](https://www.nitendratech.com) where you can blog post on several technologies.
+You can find my blogs at [nitendratech.com](https://www.nitendratech.com).
 
